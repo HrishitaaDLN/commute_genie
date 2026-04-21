@@ -6,16 +6,6 @@ It uses real-time transportation signals from **LTA DataMall**, contextual signa
 
 The system follows a **manager-worker-reflection architecture** implemented using **LangGraph**, with a **FastAPI backend** and a **Streamlit frontend**.
 
----
-
-## 👥 Team Members
-
-- **Sujith Thota (sthot10)** – System architecture, Manager Agent, Context Agent, backend orchestration  
-- **Lakshmi Naga Hrishitaa Dharmavarapu (ldhar)** – Transport Agent, frontend, documentation  
-- **Shared Work** – Critic Agent, testing, prompt refinement, integration  
-
----
-
 ## Project Overview
 
 Commuters often need to check multiple sources before making a transportation decision, such as:
@@ -55,7 +45,7 @@ The workflow is implemented using **LangGraph**.
 ```
 User
   ↓
-Streamlit Frontend
+React, Nextjs, Tailwind CSS Frontend
   ↓
 FastAPI Backend
   ↓
